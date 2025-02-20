@@ -1,0 +1,16 @@
+.comments {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .comment {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+  }
+  
+  .comment:last-child {
+    border-bottom: none;
+  }
+  
