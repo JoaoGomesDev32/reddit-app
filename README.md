@@ -49,6 +49,12 @@ Este é um aplicativo web que permite pesquisar posts do Reddit, visualizar os d
 4. Abra o navegador e acesse:
   ```
   http://localhost:3000
+
+  ## 🌐 Deploy
+  
+  O aplicativo está disponível online em: [JS Reddit App](https://your-deployed-app-link.com)
+
+  ![Netlify Status](https://api.netlify.com/api/v1/badges/cb855c1c-6a73-4b1e-9c1e-b902b31fdba1/deploy-status)
   ```
 
 ## 🤝 Contribuindo
