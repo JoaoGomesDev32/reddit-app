@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.scss";
+import "./SideBar.scss";
 
 const Sidebar: React.FC = () => {
   const subreddits = ["popular", "gaming", "movies", "news", "sports", "technology"];
