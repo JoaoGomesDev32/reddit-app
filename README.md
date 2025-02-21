@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# 🚀 Reddit App - Cliente de Reddit com React + Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um aplicativo web que permite pesquisar posts do Reddit, visualizar os detalhes e explorar subreddits populares.
 
-Currently, two official plugins are available:
+## 🎨 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + TypeScript**
+- **Redux Toolkit**
+- **SCSS**
+- **Axios**
+- **Reddit API**
 
-## Expanding the ESLint configuration
+## 📸 Capturas de Tela
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Reddit App](./public/img/image.png)
 
-- Configure the top-level `parserOptions` property like this:
+## 📌 Funcionalidades
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- ✅ Pesquisar posts de qualquer subreddit  
+- ✅ Exibir comentários ao clicar em um post  
+- ✅ Navegar entre subreddits populares  
+- ✅ Interface moderna e responsiva  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Como Rodar o Projeto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/reddit-app.git
+   cd reddit-app
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🚀 Como Rodar o Projeto
+
+1. Clone o repositório:
+  ```sh
+  git clone https://github.com/seu-usuario/reddit-app.git
+  cd reddit-app
+  ```
+
+2. Instale as dependências:
+  ```sh
+  npm install
+  ```
+
+3. Inicie o servidor de desenvolvimento:
+  ```sh
+  npm start
+  ```
+
+4. Abra o navegador e acesse:
+  ```
+  http://localhost:3000
+  ```
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Faça o push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
